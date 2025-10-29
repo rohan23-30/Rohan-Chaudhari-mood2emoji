@@ -1,15 +1,32 @@
-# Mood Detector for Kids
+# 🌈 Mood2Emoji — A Kid-safe Text Mood Detector
 
-A fun app that helps kids understand emotions through text!
+**Mood2Emoji** is a fun and interactive web app built to help kids aged **12–16** understand how computers can detect emotions from text!  
+It uses simple **AI logic (TextBlob sentiment analysis)** to classify moods into 😀 *Happy*, 😐 *Neutral*, or 😞 *Sad* — while keeping everything safe and positive.
 
-## How to use:
-1. Type how you're feeling
-2. See what emoji matches your mood
-3. Teachers can check the special teacher section
+---
 
-## To run the app:
-1. Install Python
-2. Install requirements: `pip install streamlit textblob`
-3. Run: `streamlit run app.py`
+## 🧠 What This App Does
 
-Made with ❤️ for helping kids learn about emotions
+Type a short sentence, click the button, and the app:
+1. Checks if your sentence is safe and kind 🌸  
+2. Detects the emotion behind your words 🧠  
+3. Shows a friendly emoji + one-line explanation 😄  
+
+Teachers can also open the **👩‍🏫 “Teacher Mode”** to view a simple explanation of how the app works.
+
+---
+
+## 🧩 Tech Stack
+- 🐍 **Python 3.9+**
+- 🎨 **Streamlit** — for the web interface
+- 💬 **TextBlob** — for simple sentiment analysis
+- 🧼 **Rule-based Safety Filter** — to ensure kid-safe inputs
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/rohan-chaudhari-mood2emoji.git
+cd rohan-chaudhari-mood2emoji
